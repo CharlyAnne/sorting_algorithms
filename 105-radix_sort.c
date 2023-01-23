@@ -48,7 +48,7 @@ void radix_counting_sort(int *array, size_t size, int sig, int *buff)
 		buff[count[(array[i] / sig) % 10] - 1] = array[i];
 		count[(array[i] / sig) % 10] -= 1;
 	}
-[O
+
 	for (i = 0; i < size; i++)
 		array[i] = buff[i];
 }

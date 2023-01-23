@@ -65,7 +65,7 @@ char get_value(deck_node_t *card)
 	return (13);
 }
 
-[O/**
+/**
  * insertion_sort_deck_kind - Sort a deck of cards from spades to diamonds.
  * @deck: A pointer to the head of a deck_node_t doubly-linked list.
  */
